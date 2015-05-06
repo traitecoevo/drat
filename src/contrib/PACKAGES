@@ -5,6 +5,15 @@ License: GPL (>= 2)
 MD5sum: c11bf2eb3bd7168ed6f33e1c859744e3
 NeedsCompilation: no
 
+Package: RcppR6
+Version: 0.2.001
+Depends: R (>= 3.1.0)
+Imports: Rcpp, devtools, whisker, yaml
+Suggests: testthat, roxygen2 (>= 4.0.0), R6 (>= 1.0.1.9001)
+License: BSD_2_clause + file LICENSE
+MD5sum: 39d29c84ed89999ce3db123326125b3f
+NeedsCompilation: no
+
 Package: RedisAPI
 Version: 0.1.0
 Depends: R (>= 3.1.2)
