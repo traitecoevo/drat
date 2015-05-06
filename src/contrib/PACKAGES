@@ -7,6 +7,15 @@ License: BSD_2_clause + file LICENSE
 MD5sum: fb831587e2bb40a8f0de76aea22861bb
 NeedsCompilation: no
 
+Package: dockertest
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: devtools, yaml, downloader, httr, jsonlite, rappdirs
+Suggests: testthat, remake
+License: BSD_2_clause + file LICENSE
+MD5sum: 0603604b205669703adb87851b5c0e88
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.3.1
 Suggests: git2r, knitr
