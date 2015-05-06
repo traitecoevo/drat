@@ -7,6 +7,14 @@ License: BSD_2_clause + file LICENSE
 MD5sum: fb831587e2bb40a8f0de76aea22861bb
 NeedsCompilation: no
 
+Package: crayon
+Version: 1.2.0
+Imports: memoise
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: dae1d4994040c027c99349a6456a5b11
+NeedsCompilation: no
+
 Package: dockertest
 Version: 0.2.0
 Depends: R (>= 3.1.0)
