@@ -15,6 +15,16 @@ License: BSD_2_clause + file LICENSE
 MD5sum: 2110d9a42d8673dff0f3e846bab2e683
 NeedsCompilation: no
 
+Package: RedisHeartbeat
+Version: 0.1.0
+Depends: R (>= 3.1.2)
+Imports: Rcpp, R6
+LinkingTo: Rcpp
+Suggests: testthat, RedisAPI, RcppRedis
+License: BSD_2_clause + file LICENSE
+MD5sum: 8d4c1c03c5f42dbd6c1b1257923ad2ed
+NeedsCompilation: yes
+
 Package: remake
 Version: 0.2.0
 Depends: R (>= 3.0.0)
