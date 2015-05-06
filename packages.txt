@@ -1,0 +1,25 @@
+# Infrastructure packages:
+ropensci/RedisAPI
+richfitz/storr
+richfitz/remake
+richfitz/RedisHeartbeat
+richfitz/sowsear
+richfitz/RcppR6
+traitecoevo/callr
+traitecoevo/remake
+traitecoevo/rrqueue
+traitecoevo/experimentr
+traitecoevo/dockertest
+
+# Other people's infrastructure (until updated on CRAN)
+gaborcsardi/progress
+gaborcsardi/crayon
+
+# Science packages
+traitecoevo/Revolve
+# traitecoevo/tree
+# traitecoevo/tree.assembly
+# traitecoevo/tree2
+# traitecoevo/tree2.assembly
+# traitecoevo/tree.ml
+# traitecoevo/grail
