@@ -116,6 +116,6 @@ Depends: R (>= 3.1.0)
 Imports: R6, digest
 Suggests: testthat, RcppRedis, RedisAPI, rrlite, knitr, microbenchmark
 License: BSD_2_clause + file LICENSE
-MD5sum: 5579e3ca6c93d192ae75ba6f856291c3
+MD5sum: 4e65482a850d046c6b5d1cb73c549f84
 NeedsCompilation: no
 
