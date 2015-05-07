@@ -107,7 +107,7 @@ Package: sowsear
 Version: 0.1-1
 Depends: R (>= 2.10)
 License: GPL (>= 2)
-MD5sum: 75fbd3cbb19eb2e086455c48d9fbadf2
+MD5sum: 0b14a753bb1316b463c8bbf34edb3704
 NeedsCompilation: no
 
 Package: storr
