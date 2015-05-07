@@ -86,13 +86,6 @@ update_drat <- function(packages, commit=TRUE) {
   }
 }
 
-commit_drat <- function() {
-  repo <- git2r::repository(".")
-  st <- git2r::status(repo, verbose=FALSE, unstaged=FALSE, untracked=FALSE)
-  if (length(st$staged) > 0L) {
-
-  }
-}
 
 log <- function(action, package) {
   message(sprintf("*** [%s] %s",
