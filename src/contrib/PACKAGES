@@ -114,8 +114,9 @@ Package: storr
 Version: 0.1.0
 Depends: R (>= 3.1.0)
 Imports: R6, digest
-Suggests: testthat, RcppRedis, RedisAPI, rrlite, knitr, microbenchmark
+Suggests: testthat, RcppRedis, RedisAPI, rrlite, knitr, microbenchmark,
+        httr
 License: BSD_2_clause + file LICENSE
-MD5sum: 4e65482a850d046c6b5d1cb73c549f84
+MD5sum: 864f741e9a437e52f46a6263da472a51
 NeedsCompilation: no
 
