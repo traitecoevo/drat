@@ -1,3 +1,12 @@
+Package: baad.data
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: bibtex, rappdirs, storr, httr
+Suggests: testthat
+License: BSD_2_clause + file LICENSE
+MD5sum: eb50f372baa1aff4dc049c2a121e5207
+NeedsCompilation: no
+
 Package: callr
 Version: 0.1.0
 Depends: R (>= 3.1.2)
