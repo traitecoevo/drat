@@ -57,12 +57,12 @@ MD5sum: c6a2dfffab62d1593966fd0676190ea5
 NeedsCompilation: no
 
 Package: RcppR6
-Version: 0.2.001
+Version: 0.2.002
 Depends: R (>= 3.1.0)
-Imports: Rcpp, devtools, whisker, yaml
-Suggests: testthat, roxygen2 (>= 4.0.0), R6 (>= 1.0.1.9001)
+Imports: whisker, yaml, digest, Rcpp
+Suggests: R6 (>= 2.0.0), testthat, devtools
 License: BSD_2_clause + file LICENSE
-MD5sum: 39d29c84ed89999ce3db123326125b3f
+MD5sum: a30235645adce81b28b05e9a8ce5ac82
 NeedsCompilation: no
 
 Package: RedisAPI
