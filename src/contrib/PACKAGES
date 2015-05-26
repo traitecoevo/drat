@@ -40,6 +40,15 @@ License: GPL (>= 2)
 MD5sum: c11bf2eb3bd7168ed6f33e1c859744e3
 NeedsCompilation: no
 
+Package: drat.builder
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: crayon, devtools, docopt, drat, git2r, jsonlite
+Suggests: testthat
+License: BSD_2_clause + file LICENSE
+MD5sum: 6bbe8db6cff9365ee6727863f39b9967
+NeedsCompilation: no
+
 Package: experimentr
 Version: 0.1
 Depends: R (>= 3.0.0)
