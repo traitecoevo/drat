@@ -129,3 +129,14 @@ License: BSD_2_clause + file LICENSE
 MD5sum: 4f1049bd874717463d6560682b01f74f
 NeedsCompilation: no
 
+Package: tree
+Version: 0.2.1
+Depends: R (>= 3.1.0)
+Imports: Rcpp, R6
+LinkingTo: Rcpp, BH
+Suggests: testthat, deSolve, numDeriv, nleqslv, BB, parallel, RcppR6
+        (>= 0.2.1)
+License: GPL-2
+MD5sum: 1e862be02ee7f44114a6b0ddb2926f36
+NeedsCompilation: yes
+
