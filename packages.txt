@@ -6,7 +6,6 @@ richfitz/RedisHeartbeat
 richfitz/sowsear
 richfitz/RcppR6
 traitecoevo/callr
-traitecoevo/remake
 traitecoevo/rrqueue
 traitecoevo/experimentr
 traitecoevo/dockertest
@@ -17,7 +16,7 @@ gaborcsardi/crayon
 
 # Science packages
 traitecoevo/Revolve
-# traitecoevo/tree
+traitecoevo/tree
 # traitecoevo/tree.assembly
 # traitecoevo/tree2
 # traitecoevo/tree2.assembly
