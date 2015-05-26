@@ -9,6 +9,7 @@ traitecoevo/callr
 traitecoevo/rrqueue
 traitecoevo/experimentr
 traitecoevo/dockertest
+richfitz/drat.builder
 
 # Other people's infrastructure (until updated on CRAN)
 gaborcsardi/progress
