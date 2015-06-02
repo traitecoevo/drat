@@ -5,7 +5,7 @@ Our [drat](https://github.com/eddelbuettel/drat) repository
 First, install `drat.builder` with:
 
 ```
-drat::add("traitecoevo")
+drat:::add("traitecoevo")
 install.packages("drat.builder")
 ```
 
