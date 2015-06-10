@@ -69,9 +69,9 @@ Package: RcppR6
 Version: 0.2.002
 Depends: R (>= 3.1.0)
 Imports: whisker, yaml, digest, Rcpp
-Suggests: R6 (>= 2.0.0), testthat, devtools
+Suggests: R6 (>= 2.0.0), testthat, devtools, knitr
 License: BSD_2_clause + file LICENSE
-MD5sum: a30235645adce81b28b05e9a8ce5ac82
+MD5sum: 3979ee0701973e19d5be38573659e9b4
 NeedsCompilation: no
 
 Package: RedisAPI
