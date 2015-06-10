@@ -75,13 +75,12 @@ MD5sum: a30235645adce81b28b05e9a8ce5ac82
 NeedsCompilation: no
 
 Package: RedisAPI
-Version: 0.1.1
+Version: 0.1.3
 Depends: R (>= 3.1.2)
-Imports: R6
-Suggests: testthat, knitr, RcppRedis
-Enhances: rredis
+Imports: R6, RcppRedis
+Suggests: testthat, knitr
 License: BSD_2_clause + file LICENSE
-MD5sum: 329e385a95fb1729717ab349356ee4c9
+MD5sum: bbd73a7b1380f60f02b21e3eb8ed7396
 NeedsCompilation: no
 
 Package: RedisHeartbeat
