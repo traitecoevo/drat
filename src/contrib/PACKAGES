@@ -59,10 +59,11 @@ MD5sum: ce1cc67308d1017c94a4211ad4b907db
 NeedsCompilation: no
 
 Package: progress
-Version: 1.0.0
+Version: 1.0.2
 Imports: prettyunits, R6
+Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: c6a2dfffab62d1593966fd0676190ea5
+MD5sum: 564a94c755e9fda0026614363231022a
 NeedsCompilation: no
 
 Package: RcppR6
