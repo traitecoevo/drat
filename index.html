@@ -25,15 +25,17 @@
 install.packages("drat")
 drat:::add("traitecoevo")
 install.packages("callr", type="source")</pre>
-        <h4>Updating this drat</h4>
+        <h4>Updating this drat (maintainers only)</h4>
         <ol>
-          <li>Clone this repository if you don't have it already, and
-            install the drat and crayon packages from CRAN</li>
+          <li>Install <code>drat.builder</code> from this drat
+          (<code>drat:::add("traitecoevo");
+          installl.packages("drat.builder")</code>)</li>
+          <li>Clone this repository</li>
           <li>If adding a new package, edit <code>packages.txt</code>
           to list github user name / package name.  Blank lines and
             lines starting with "#" are ignored.</li>
-          <li>Run <code>./build.R</code> to download all packages,
-            build tar balls, add to drat and make commits.</li>
+          <li>Run <code>drat.builder::build()</code> to download all packages,
+          build tar balls, add to drat and make commits.</li>
           <li>Run <code>git push</code> to push the changes back
             here.</li>
         </ol>
