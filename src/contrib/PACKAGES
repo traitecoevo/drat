@@ -17,11 +17,11 @@ MD5sum: b94a44e7b80555a078cb99df717e782b
 NeedsCompilation: no
 
 Package: crayon
-Version: 1.2.1
+Version: 1.3.0
 Imports: memoise
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 25bd440ec700238e9fe2ae6884939fba
+MD5sum: 26bba0605d2d2e534e760b2961dbcb20
 NeedsCompilation: no
 
 Package: dockertest
