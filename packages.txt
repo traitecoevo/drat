@@ -10,10 +10,12 @@ traitecoevo/rrqueue
 traitecoevo/experimentr
 traitecoevo/dockertest
 richfitz/drat.builder
+richfitz/loggr.redis
 
 # Other people's infrastructure (until updated on CRAN)
 gaborcsardi/progress
 gaborcsardi/crayon
+smbache/loggr
 
 # Science packages
 traitecoevo/Revolve
