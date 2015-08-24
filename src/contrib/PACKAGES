@@ -142,10 +142,10 @@ NeedsCompilation: no
 Package: rrqueue
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: crayon, RedisAPI, R6, digest, docopt, storr
-Suggests: testthat, RedisHeartbeat, RcppRedis, progress
+Imports: crayon, RedisAPI, R6, digest, docopt, storr, progress
+Suggests: testthat, RedisHeartbeat, RcppRedis
 License: BSD_2_clause + file LICENSE
-MD5sum: 69c7161299e9d002ee88ff29efc9c712
+MD5sum: 73c098ffbe12d5ccd7334966e485c1f6
 NeedsCompilation: no
 
 Package: sowsear
