@@ -63,7 +63,7 @@ Package: loggr
 Version: 0.3
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 6d3fc798ea10514dd30f4cbbd15c121f
+MD5sum: c324b02b23f2e11acc7d9694fd650133
 NeedsCompilation: no
 
 Package: loggr.redis
