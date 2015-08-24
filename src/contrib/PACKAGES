@@ -128,7 +128,7 @@ Imports: R6 (>= 2.0.0), digest, yaml, codetools, crayon, optparse,
         storr
 Suggests: testthat, DiagrammeR, knitr, downloader, devtools, pryr
 License: BSD_2_clause + file LICENSE
-MD5sum: 365b6e09184b61807c48b08da1b6e0fd
+MD5sum: fbdb0fdd73400423d92ce8951f9deac1
 NeedsCompilation: no
 
 Package: Revolve
