@@ -44,10 +44,10 @@ NeedsCompilation: no
 Package: drat.builder
 Version: 0.1.0
 Depends: R (>= 3.2.0)
-Imports: crayon, docopt, drat, git2r, jsonlite
+Imports: crayon, docopt, drat, jsonlite
 Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: f2335b308c3b08fdc31dadb0d2a4fb69
+MD5sum: ff7b64ad965ed8fd4fdcac0aa0b1dc6f
 NeedsCompilation: no
 
 Package: experimentr
