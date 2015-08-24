@@ -91,7 +91,7 @@ Version: 1.0.2
 Imports: prettyunits, R6
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 564a94c755e9fda0026614363231022a
+MD5sum: 0a68bbbf89d089726ebeb9c21265ffbf
 NeedsCompilation: no
 
 Package: RcppR6
