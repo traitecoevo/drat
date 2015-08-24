@@ -94,12 +94,12 @@ MD5sum: 564a94c755e9fda0026614363231022a
 NeedsCompilation: no
 
 Package: RcppR6
-Version: 0.2.002
+Version: 0.2.004
 Depends: R (>= 3.1.0)
 Imports: whisker, yaml, digest, Rcpp
 Suggests: R6 (>= 2.0.0), testthat, devtools, knitr
 License: BSD_2_clause + file LICENSE
-MD5sum: 3979ee0701973e19d5be38573659e9b4
+MD5sum: e2d6dd650f8c28599231bbde8552c673
 NeedsCompilation: no
 
 Package: RedisAPI
