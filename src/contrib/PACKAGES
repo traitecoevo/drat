@@ -118,7 +118,7 @@ Imports: Rcpp, R6
 LinkingTo: Rcpp
 Suggests: testthat, RedisAPI, RcppRedis
 License: BSD_2_clause + file LICENSE
-MD5sum: 8d4c1c03c5f42dbd6c1b1257923ad2ed
+MD5sum: da3c04587941b1e054a34ea7abed76ba
 NeedsCompilation: yes
 
 Package: remake
