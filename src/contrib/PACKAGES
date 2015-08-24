@@ -8,12 +8,12 @@ MD5sum: baf26bf8cc5e7fea5d790ebef2fbdf50
 NeedsCompilation: no
 
 Package: callr
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.1.2)
 Imports: jsonlite, docopt
 Suggests: testthat, devtools
 License: BSD_2_clause + file LICENSE
-MD5sum: b94a44e7b80555a078cb99df717e782b
+MD5sum: e6acf0cfbe693ff04f3755c9e85394aa
 NeedsCompilation: no
 
 Package: crayon
