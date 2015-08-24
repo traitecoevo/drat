@@ -156,13 +156,12 @@ MD5sum: 0b14a753bb1316b463c8bbf34edb3704
 NeedsCompilation: no
 
 Package: storr
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.1.0)
-Imports: R6, digest
-Suggests: testthat, RcppRedis, RedisAPI, rrlite, knitr, microbenchmark,
-        httr
+Imports: R6 (>= 2.1.0), digest, httr, rappdirs
+Suggests: testthat, RedisAPI, rrlite, knitr, microbenchmark
 License: BSD_2_clause + file LICENSE
-MD5sum: d488282f5ad9b716d91164d7eb9cbf9d
+MD5sum: 1fe0ee7b77a8f40c2bb07c9f9e75558e
 NeedsCompilation: no
 
 Package: tree
