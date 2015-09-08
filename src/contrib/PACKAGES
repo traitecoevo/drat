@@ -83,7 +83,7 @@ LinkingTo: Rcpp, BH
 Suggests: testthat, deSolve, numDeriv, parallel, RcppR6 (>= 0.2.3),
         knitr, plant.ml
 License: GPL-2
-MD5sum: d49f4c8b44b0627e96b6d2c0b08b250a
+MD5sum: c40830320b8e742a8beaa2164b7104df
 NeedsCompilation: yes
 
 Package: progress
