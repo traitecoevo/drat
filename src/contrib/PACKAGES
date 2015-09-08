@@ -127,9 +127,9 @@ Version: 0.2.0
 Depends: R (>= 3.0.0)
 Imports: R6 (>= 2.0.0), digest, yaml, codetools, crayon, optparse,
         storr
-Suggests: testthat, DiagrammeR, knitr, downloader, devtools, pryr
+Suggests: testthat, DiagrammeR, knitr, downloader, devtools
 License: BSD_2_clause + file LICENSE
-MD5sum: fbdb0fdd73400423d92ce8951f9deac1
+MD5sum: f07f0beeccff5a49447bd907915ffc79
 NeedsCompilation: no
 
 Package: Revolve
