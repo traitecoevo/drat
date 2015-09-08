@@ -31,7 +31,7 @@ Imports: callr, devtools (>= 1.8.0), yaml, downloader, httr, jsonlite,
         rappdirs, docopt
 Suggests: testthat, remake
 License: BSD_2_clause + file LICENSE
-MD5sum: 33565921fa7e628d73268715689dfe5e
+MD5sum: fbb5d67ee13503a8c4c73498a2930140
 NeedsCompilation: no
 
 Package: drat
