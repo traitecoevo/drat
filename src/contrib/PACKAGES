@@ -56,7 +56,7 @@ Depends: R (>= 3.0.0)
 Imports: optparse, whisker, yaml
 Suggests: testthat, parallel, MASS, utils
 License: BSD_2_clause + file LICENSE
-MD5sum: ce1cc67308d1017c94a4211ad4b907db
+MD5sum: 6ff2f7c4310a8f1bfd85161659b3c077
 NeedsCompilation: no
 
 Package: loggr
