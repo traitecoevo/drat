@@ -156,7 +156,7 @@ Imports: R6, RedisAPI (>= 0.3.0), RedisHeartbeat (>= 0.3.0), crayon,
         1.0.0)
 Suggests: testthat, tools, knitr, rmarkdown, yaml
 License: BSD_2_clause + file LICENSE
-MD5sum: 1c89a1f484962253a6ea87200cdd7284
+MD5sum: dcbfb121b8861fd364f1d0e6f536364e
 NeedsCompilation: no
 
 Package: sowsear
