@@ -8,12 +8,12 @@ MD5sum: 06a83eb24293bffa85665673da16936d
 NeedsCompilation: no
 
 Package: callr
-Version: 0.1.2
+Version: 0.1.4
 Depends: R (>= 3.1.2)
 Imports: jsonlite, docopt
-Suggests: testthat, devtools
+Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: e6acf0cfbe693ff04f3755c9e85394aa
+MD5sum: f6c6c5506941dfa1a37e0e9432843d1d
 NeedsCompilation: no
 
 Package: crayon
@@ -25,13 +25,13 @@ MD5sum: 6654c40a00e8ab8b094eb634711c1911
 NeedsCompilation: no
 
 Package: dockertest
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
-Imports: callr, devtools (>= 1.8.0), yaml, downloader, httr, jsonlite,
-        rappdirs, docopt
+Imports: callr, devtools (>= 1.8.0), yaml, httr, jsonlite, rappdirs,
+        docopt
 Suggests: testthat, remake
 License: BSD_2_clause + file LICENSE
-MD5sum: fbb5d67ee13503a8c4c73498a2930140
+MD5sum: 97c1321e4a01f6644be23c84ad195c3a
 NeedsCompilation: no
 
 Package: drat
@@ -104,22 +104,30 @@ MD5sum: e2d6dd650f8c28599231bbde8552c673
 NeedsCompilation: no
 
 Package: RedisAPI
-Version: 0.1.4
+Version: 0.4.0
 Depends: R (>= 3.1.2)
-Imports: R6, RcppRedis
-Suggests: testthat, knitr
+Imports: R6, RApiSerialize
+Suggests: methods, testthat, RcppRedis
 License: BSD_2_clause + file LICENSE
-MD5sum: f33b5a7e6d17d8e882c23f8b24f78cce
+MD5sum: e5e7e7f86862bc6ffbeeb71235b241b8
 NeedsCompilation: no
 
 Package: RedisHeartbeat
-Version: 0.1.0
+Version: 0.3.0
 Depends: R (>= 3.1.2)
-Imports: Rcpp, R6
+Imports: R6, Rcpp, RedisAPI (>= 0.3.0), redux (>= 0.3.0)
 LinkingTo: Rcpp
-Suggests: testthat, RedisAPI, RcppRedis
+Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: da3c04587941b1e054a34ea7abed76ba
+MD5sum: b11bc871d8f3ca546af4d559368916b0
+NeedsCompilation: yes
+
+Package: redux
+Version: 0.4.0
+Imports: RedisAPI (>= 0.4.0)
+Suggests: knitr, testthat
+License: GPL-2
+MD5sum: a89e5bc14ad19505cbbb8de0d67a496a
 NeedsCompilation: yes
 
 Package: remake
@@ -141,12 +149,14 @@ MD5sum: bd9f0fe965fc29f296ded6587486d877
 NeedsCompilation: no
 
 Package: rrqueue
-Version: 0.1.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
-Imports: crayon, RedisAPI, R6, digest, docopt, storr, progress
-Suggests: testthat, RedisHeartbeat, RcppRedis
+Imports: R6, RedisAPI (>= 0.3.0), RedisHeartbeat (>= 0.3.0), crayon,
+        digest, docopt, ids, progress, redux (>= 0.3.0), storr (>=
+        1.0.0)
+Suggests: testthat, tools, knitr, rmarkdown, yaml
 License: BSD_2_clause + file LICENSE
-MD5sum: 73c098ffbe12d5ccd7334966e485c1f6
+MD5sum: 1c89a1f484962253a6ea87200cdd7284
 NeedsCompilation: no
 
 Package: sowsear
@@ -157,12 +167,12 @@ MD5sum: db45bd86727c7d8546d2a94500991ce9
 NeedsCompilation: no
 
 Package: storr
-Version: 0.1.3
+Version: 1.0.0
 Depends: R (>= 3.1.0)
-Imports: R6 (>= 2.1.0), digest, httr, rappdirs
-Suggests: testthat, RedisAPI, rrlite, knitr, microbenchmark
-License: BSD_2_clause + file LICENSE
-MD5sum: 1fe0ee7b77a8f40c2bb07c9f9e75558e
+Imports: R6 (>= 2.1.0), digest
+Suggests: DBI, RSQLite, knitr, microbenchmark, testthat
+License: MIT + file LICENSE
+MD5sum: ae27949afa29807b6786ddc78f271ca9
 NeedsCompilation: no
 
 Package: tree
