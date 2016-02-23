@@ -119,7 +119,7 @@ Imports: R6, Rcpp, RedisAPI (>= 0.3.0), redux (>= 0.3.0)
 LinkingTo: Rcpp
 Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: b11bc871d8f3ca546af4d559368916b0
+MD5sum: 7cd60cca231b3fbac0562c55a95295f9
 NeedsCompilation: yes
 
 Package: redux
