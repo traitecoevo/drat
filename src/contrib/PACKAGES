@@ -89,9 +89,9 @@ NeedsCompilation: yes
 Package: progress
 Version: 1.0.2
 Imports: prettyunits, R6
-Suggests: testthat
+Suggests: testthat, microbenchmark
 License: MIT + file LICENSE
-MD5sum: 0a68bbbf89d089726ebeb9c21265ffbf
+MD5sum: c5efa77087bce218b31c1364075a6e75
 NeedsCompilation: no
 
 Package: RcppR6
