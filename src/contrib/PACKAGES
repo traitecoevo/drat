@@ -134,10 +134,10 @@ Package: remake
 Version: 0.2.0
 Depends: R (>= 3.0.0)
 Imports: R6 (>= 2.0.0), digest, yaml, codetools, crayon, optparse,
-        storr
+        storr (>= 0.5.0)
 Suggests: testthat, DiagrammeR, knitr, downloader, devtools
 License: BSD_2_clause + file LICENSE
-MD5sum: f07f0beeccff5a49447bd907915ffc79
+MD5sum: 1756936a15579d652977d03b1c352b8a
 NeedsCompilation: no
 
 Package: Revolve
