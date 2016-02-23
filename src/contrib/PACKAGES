@@ -76,14 +76,14 @@ MD5sum: 51c251219b83489563acf722e2bedb96
 NeedsCompilation: no
 
 Package: plant
-Version: 0.2.3
+Version: 1.0.0
 Depends: R (>= 3.1.0)
 Imports: Rcpp, R6, loggr, crayon, nleqslv, BB
 LinkingTo: Rcpp, BH
 Suggests: testthat, deSolve, numDeriv, parallel, RcppR6 (>= 0.2.3),
         knitr, plant.ml
 License: GPL-2
-MD5sum: c40830320b8e742a8beaa2164b7104df
+MD5sum: efc8db84b61c411ef84902e1aa7b0ef6
 NeedsCompilation: yes
 
 Package: progress
