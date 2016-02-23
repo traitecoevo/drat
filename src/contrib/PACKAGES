@@ -172,7 +172,7 @@ Depends: R (>= 3.1.0)
 Imports: R6 (>= 2.1.0), digest
 Suggests: DBI, RSQLite, knitr, microbenchmark, testthat
 License: MIT + file LICENSE
-MD5sum: ae27949afa29807b6786ddc78f271ca9
+MD5sum: 8fbf9da7fa3e814cba6976aa298e2b87
 NeedsCompilation: no
 
 Package: tree
