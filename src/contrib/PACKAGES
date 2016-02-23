@@ -1,10 +1,10 @@
 Package: baad.data
 Version: 1.0.1
 Depends: R (>= 3.1.2)
-Imports: bibtex, storr (>= 0.1.3)
+Imports: bibtex, datastorr
 Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: 06a83eb24293bffa85665673da16936d
+MD5sum: a7f89ca403dea60cdeb73a1bcc9f58de
 NeedsCompilation: no
 
 Package: callr
