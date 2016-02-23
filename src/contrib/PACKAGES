@@ -13,7 +13,7 @@ Depends: R (>= 3.1.2)
 Imports: jsonlite, docopt
 Suggests: testthat
 License: BSD_2_clause + file LICENSE
-MD5sum: f6c6c5506941dfa1a37e0e9432843d1d
+MD5sum: ef5862f98a8c9148300f8c2646fc53e5
 NeedsCompilation: no
 
 Package: crayon
